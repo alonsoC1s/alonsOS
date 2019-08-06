@@ -10,7 +10,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.alonsoos.dataStructs.Dia;
 import com.example.alonsoos.ui.main.SectionsPagerAdapter;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,7 +31,13 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                // Write a message to the database
+                FirebaseDatabase database = FirebaseDatabase.getInstance();
+                DatabaseReference myRef = database.getReference("Dias");
+                myRef.setValue(new Dia());
+
+
+                Snackbar.make(view, "Ya está", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
