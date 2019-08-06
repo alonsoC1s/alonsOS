@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363858758241",
+    "firebase_url": "https://alons-os-1ef2f.firebaseio.com",
+    "project_id": "alons-os-1ef2f",
+    "storage_bucket": "alons-os-1ef2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363858758241:android:e8b9fd42f36dd9c0",
+        "android_client_info": {
+          "package_name": "com.example.alonsoos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363858758241-o4gdhh6gb6lgj2j7rv3gglpm5bsbtb4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alonsoos",
+            "certificate_hash": "5664c960aeb4d606d0f39777ee6a6821f4b56337"
+          }
+        },
+        {
+          "client_id": "363858758241-etm8j02kkf8os2o12pp25mshrl3o1r5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAetQ9hdvmxXfFvIe53RLBm8Fq04xUEzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363858758241-etm8j02kkf8os2o12pp25mshrl3o1r5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
